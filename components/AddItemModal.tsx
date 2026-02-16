@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, Sparkles, Loader2, Save } from 'lucide-react';
 import { InventoryItem } from '../types';
-import { getProductDetails } from '../services/geminiService';
+import { getProductDetails } from '../services/gemini';
 
 interface AddItemModalProps {
   isOpen: boolean;

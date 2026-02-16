@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Loader2, Sparkles } from 'lucide-react';
 import { InventoryItem } from '../types';
-import { chatWithInventory } from '../services/geminiService';
+import { chatWithInventory } from '../services/gemini';
 
 interface AIChatAssistantProps {
   inventory: InventoryItem[];
